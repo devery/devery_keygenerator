@@ -18,7 +18,7 @@ document.getElementById("clickMe").onclick = function getRandomWallet() {
 	qr.make();
     document.getElementById("display").innerHTML = address;
 	document.getElementById('qr').innerHTML = qr.createImgTag();
-    document.getElementById('instructions').innerHTML = "1.Place the QR code on the product you wish to uniquely identify. <br/> To mark an item on the blockchain, enter the Ethereum address into the Devery protocol application."
+    document.getElementById('instructions').innerHTML = "Place the QR code on the product you wish to uniquely identify. <br/> To mark an item on the blockchain, enter the Ethereum address into a Devery protocol application."
 
 	console.log("did it")
     console.log(randbytes.toString('hex'));
